@@ -1,0 +1,39 @@
+<div class="card">
+    <div class="card-header">
+      Company
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{formTitle}}</h5>
+       <div class="form" [formGroup]="form">
+           <label for="name">Name</label>
+          <div class="input-group mb-3">
+              <input formControlName="name" id="name" type="text" class="form-control" placeholder="Name">
+          </div>
+         
+          <label for="address">Address</label>
+          <div class="input-group mb-3">
+              <textarea formControlName="address" id="address" type="text" class="form-control" placeholder="Complete Address">
+               </textarea>
+          </div>
+
+          <label for="industry">Industry</label>
+          <div class="input-group mb-3">
+              <select formControlName="industry" id="industry" type="text" class="form-control">
+               <option  value="">Select Industry</option>
+               <option [value]="data.value" *ngFor="let data of industries">
+                 {{data.description}}
+               </option>
+              </select>
+          </div>
+
+          <label for="numOfEmp">Number of Employees</label>
+          <div class="input-group mb-3">
+              <input formControlName="numOfEmp" id="numOfEmp" type="text" class="form-control" placeholder="0,1...">
+          </div>
+       </div>
+
+          <button (click)="clearForm()" class="btn btn-secondary">Clear</button>
+          &nbsp;
+          <button (click)="submitForm()" class="btn btn-primary">Submit</button>
+    </div>
+  </div>

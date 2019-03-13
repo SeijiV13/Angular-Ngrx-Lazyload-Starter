@@ -1,0 +1,11 @@
+
+<div class="row">
+  <div class="col-sm-12">
+      <button class="btn btn-link float-right" (click)="createCompany()">Create Company</button>
+      <app-companies-list 
+      [companies]="companies$ | async" 
+      (editEmitter)="editCompany($event)"
+      (deleteEmitter)="deleteCompany($event)">
+    </app-companies-list>
+  </div>
+</div>

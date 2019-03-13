@@ -1,1 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.css";
 /* You can add global styles to this file, and also import other style files */
+.nav-link{
+    cursor: pointer;
+}
+
+.jumbotron{
+    background: rgb(77, 77, 77);
+    border-radius: 0px;
+    color:white;
+    text-align: center;
+}
+
+.container.main-content{
+    margin-top: 10px;
+}

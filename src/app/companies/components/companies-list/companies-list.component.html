@@ -1,0 +1,31 @@
+<h5>Table Results</h5>
+<table class="table table-striped">
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Industry</th>
+            <th scope="col">Number of Emp.</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let company of companies; let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{company.name}}</td>
+            <td>{{company.address}}</td>
+            <td>{{company.industry}}</td>
+            <td>{{company.numOfEmp}}</td>
+            <td>
+              <button (click)="editCompany(company)" class="btn btn-secondary">Edit</button>
+              &nbsp;
+              <button (click)="deleteCompany(company)" class="btn btn-danger">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+
+</table>

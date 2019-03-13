@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google Incorporated.",
+      "address": "Silicon Valley California",
+      "industry": "it",
+      "numOfEmp": 600
+    },
+    {
+      "id": 2,
+      "name": "Twitter",
+      "address": "Silicon Valley California",
+      "industry": "it",
+      "numOfEmp": 600
+    },
+    {
+      "id": 3,
+      "name": "Facebook",
+      "address": "Silicon Valley California",
+      "industry": "it",
+      "numOfEmp": 600
+    },
+    {
+      "id": 4,
+      "name": "Netflix",
+      "address": "Silicon Valley California",
+      "industry": "it",
+      "numOfEmp": 600
+    },
+    {
+      "id": 5,
+      "name": "Microsoft",
+      "address": "Silicon Valley California",
+      "industry": "it",
+      "numOfEmp": 600
+    },
+    {
+      "id": 6,
+      "name": "Alibaba",
+      "address": "Silicon Valley California",
+      "industry": "it",
+      "numOfEmp": 600
+    },
+    {
+      "id": 7,
+      "name": "Tempest House",
+      "address": "California",
+      "industry": "it",
+      "numOfEmp": "600"
+    },
+    {
+      "id": 8,
+      "name": "Frontier",
+      "address": "Manila",
+      "industry": "it",
+      "numOfEmp": "600"
+    }
+  ]
+}
